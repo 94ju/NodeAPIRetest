@@ -1,3 +1,8 @@
+var count=require('./count')
+
+console.log(count(["1","2","3","5"]));
+
+
 // var message ="Hello node";
 // console.log(message);
 
@@ -14,12 +19,12 @@
 //     }
 // },2000)
 // console.log(__dirname);
-function callbackFunction(funcheck){
-    funcheck();
-}
+// function callbackFunction(funcheck){
+//     funcheck();
+// }
 
-var fun =function (){
-    console.log("Node")
-}
-callbackFunction(fun);
+// var fun =function (){
+//     console.log("Node")
+// }
+// callbackFunction(fun);
 
