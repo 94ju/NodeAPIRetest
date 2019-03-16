@@ -13,4 +13,13 @@
 //         clearInterval(timer)
 //     }
 // },2000)
-console.log(__dirname);
+// console.log(__dirname);
+function callbackFunction(funcheck){
+    funcheck();
+}
+
+var fun =function (){
+    console.log("Node")
+}
+callbackFunction(fun);
+
