@@ -1,6 +1,7 @@
-var count=require('./count')
+var stuff=require('./stuff')
 
-console.log(count(["1","2","3","5"]));
+console.log(stuff.count(["1","2","3","5"]));
+console.log(stuff.add(2,4));
 
 
 // var message ="Hello node";
